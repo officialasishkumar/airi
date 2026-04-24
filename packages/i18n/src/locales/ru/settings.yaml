@@ -685,6 +685,17 @@ pages:
       alibaba-cloud-model-studio:
         description: Bailian.console.aliyun.com
         title: Alibaba Cloud Model Studio
+      amazon-bedrock:
+        title: Amazon Bedrock
+        description: aws.amazon.com/bedrock
+        config:
+          api-key:
+            label: Ключ API Bedrock
+            description: Ключ Amazon Bedrock API (создать в консоли AWS → Bedrock → API Keys)
+            placeholder: bedrock-...
+          region:
+            label: Регион AWS
+            description: Регион AWS, где включен Bedrock (например, us-east-1, us-west-2)
       anthropic:
         description: Anthropic.com
         title: Anthropic | Claude
